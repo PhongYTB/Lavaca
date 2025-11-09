@@ -6,7 +6,7 @@ local TweenService=game:GetService("TweenService")
 local LP=Players.LocalPlayer
 local PG=LP:WaitForChild("PlayerGui")
 
-local GUI_NAME="phong roblox dupe brainrot "
+local GUI_NAME="phong hub dupe brainrot_PG"
 local old=PG:FindFirstChild(GUI_NAME); if old then old:Destroy() end
 
 -- helpers
@@ -70,7 +70,7 @@ local avatar=Instance.new("ImageLabel",box)
 avatar.Size=UDim2.new(0,56,0,56)
 avatar.Position=UDim2.new(0,16,0,12)
 avatar.BackgroundTransparency=1
-avatar.Image="rbxassetid://80028101304111"
+avatar.Image="rbxassetid://83381859755546"
 Instance.new("UICorner",avatar).CornerRadius=UDim.new(1,0)
 
 local title=Instance.new("TextLabel",box)
@@ -81,7 +81,7 @@ title.Font=Enum.Font.GothamBold
 title.TextSize=22
 title.TextColor3=Color3.fromRGB(255,255,255)
 title.TextXAlignment=Enum.TextXAlignment.Left
-title.Text="  phong loading..."
+title.Text="phong hub loading..."
 
 local barBg=Instance.new("Frame",box)
 barBg.AnchorPoint=Vector2.new(0.5,0)
@@ -105,7 +105,7 @@ sub.BackgroundTransparency=1
 sub.Font=Enum.Font.GothamBold
 sub.TextSize=18
 sub.TextColor3=Color3.fromRGB(255,255,255)
-sub.Text="Script by phongvietsub"
+sub.Text="Script by phong skibidi"
 
 TweenService:Create(fill,TweenInfo.new(8,Enum.EasingStyle.Linear),{Size=UDim2.new(1,0,1,0)}):Play()
 
@@ -134,7 +134,7 @@ t.Font=Enum.Font.GothamBlack
 t.TextSize=20
 t.TextXAlignment=Enum.TextXAlignment.Left
 t.TextColor3=Color3.fromRGB(235,235,245)
-t.Text="phong vietsub Hub"
+t.Text="phong Hub"
 dragify(titleBar,frame)
 
 local body=Instance.new("Frame",frame)
@@ -208,8 +208,8 @@ local function ShowProgress10s()
 end
 
 -- ==== Nút chính trong Hub
--- 🐟 Noob Roblox (P)
-local btnAdd=pill(body,"Noob Roblox🐟"); pillColor(btnAdd,114,106,240)
+-- 🐟 phong hub(P)
+local btnAdd=pill(body,"phong hub 🔥"); pillColor(btnAdd,114,106,240)
 btnAdd.MouseButton1Click:Connect(function()
     VIM:SendKeyEvent(true,Enum.KeyCode.P,false,game)
     VIM:SendKeyEvent(false,Enum.KeyCode.P,false,game)
@@ -242,7 +242,7 @@ btnExec.MouseButton1Click:Connect(function()
 		VIM:SendKeyEvent(false, Enum.KeyCode.Q, false, game)
 
 		-- Gọi script Lucky
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/phong vietsub/Test/refs/heads/main/Lucky"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NoobRoblox/Test/refs/heads/main/Lucky"))()
 	end)
 end)
 
@@ -354,7 +354,7 @@ panel.Size=UDim2.new(0,64,0,64)
 panel.AnchorPoint=Vector2.new(1,1)
 panel.Position=UDim2.new(1,-16,1,-16)
 panel.BackgroundColor3=Color3.fromRGB(28,30,36)
-panel.Image="rbxassetid://80028101304111"
+panel.Image="rbxassetid://83381859755546"
 Instance.new("UICorner",panel).CornerRadius=UDim.new(1,0)
 local ps2=Instance.new("UIStroke",panel) ps2.Color=Color3.fromRGB(84,130,255) ps2.Thickness=1.2
 dragify(panel,panel)
